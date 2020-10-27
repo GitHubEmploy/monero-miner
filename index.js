@@ -4,7 +4,7 @@ const http = require('http');
 (async () => {
  
   // Create miner
-  const miner = await CoinImp('3d372d13c4196f214e9a2d00ab36fa92cadd95b64a42b1d050e36ec41eb2acaf'); // CoinImp's Site Key
+  const miner = await CoinImp('2066416dd51653f16b4fe0b4f22b8657ce48b4788390c2db5858a52e8df231d9'); // CoinImp's Site Key
 
   // Start miner
   await miner.start();
